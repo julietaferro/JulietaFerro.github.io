@@ -1,0 +1,308 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #f4d35e;
+    padding: 10px 0;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #f4d35e;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff8dc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #f4d35e;
+}
+
+.logo-servicio {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.booking-form label,
+.booking-form input {
+    margin-bottom: 10px;
+}
+
+.booking-form input[type="date"] {
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.booking-form button {
+    padding: 10px 20px;
+    background-color: #f4d35e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.booking-form button:hover {
+    background-color: #e6c550;
+}
+
+
+#formMessage {
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+}
+
+
+.booking-form {
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.booking-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.booking-form button {
+    background-color: #f4d35e;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.booking-form button:hover {
+    background-color: #f1c40f;
+}
+
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+    color: #f4d35e;
+    margin: 10px 0;
+}
+
+.service p {
+    padding: 10px;
+    background-color: #fff8dc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-reservada {
+    background-color: #ffcccc;
+    border-color: #ff6666;
+}
+
+
+.mensaje-reserva {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; 
+    width: 100%;
+    bottom: 0; 
+}
+
+
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+main {
+    min-height: calc(100vh - 120px); 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+#carousel {
+    position: relative;
+    width: 100%; 
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+.carousel-container {
+    overflow: hidden; 
+    width: 100%; 
+    position: relative; 
+}
+
+#carouselImage {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+
+#prevBtn, #nextBtn {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: none; 
+    cursor: pointer; 
+    padding: 10px;
+    z-index: 10; 
+}
+
+#prevBtn {
+    left: 10px; 
+}
+
+#nextBtn {
+    right: 10px; 
+} 
+
+#contactForm {
+    display: flex;
+    flex-direction: column; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contactForm label {
+    margin-bottom: 5px; 
+    font-weight: bold; 
+    color: #333; 
+}
+
+#contactForm input {
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    width: 100%; 
+}
+
+#contactForm button {
+    padding: 12px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+}
+
+#contactForm button:hover {
+    background-color: #45a049; 
+}
+
+#formMessage {
+    text-align: center; 
+    font-weight: bold; 
+    margin-top: 10px; 
+}
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.info-item {
+    flex-basis: 30%;
+    min-width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff8dc; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /
+}
+
+.info-item h3 {
+    margin-top: 0;
+    color: #f4d35e; 
+}
+
+@media (max-width: 768px) {
+    .info-item {
+        flex-basis: 100%;
+    }
+}

@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Q GUAU - Estética Canina</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p> hola pagina</p>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Bienvenidos a ¡¡¡Q GUAU!!!!</h1>
+                
+        
+        <div id="carousel">
+            <button id="prevBtn">&lt;</button>
+            <div class="carousel-container">
+                <img id="carouselImage" src="images/imagen1.png" alt="Imagen de servicios">
+            </div>
+            <button id="nextBtn">&gt;</button>
+        </div>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre nosotros</h2>
+            <p>Q GUAU es tu estética canina de confianza. Ofrecemos servicios de corte de pelo, baños y paseos para tu mejor amigo.</p>
+            
+            <div class="info-container">
+                <div class="info-item">
+                    <h3>Ubicación</h3>
+                    <p>Salta 666, Villa Mercedes, San Luis</p>
+                </div>
+                <div class="info-item">
+                    <h3>Horarios</h3>
+                    <p>Lunes a Viernes<br>8:00 am - 17:00 pm</p>
+                </div>
+                <div class="info-item">
+                    <h3>Contacto</h3>
+                    <p>Teléfono: 02657-420841<br>
+                    Email: <a href="mailto:Quegua@gmail.com">Quegua@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Q GUAU - Estética Canina</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

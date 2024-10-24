@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Q GUAU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Servicios de Q GUAU</h1>
+
+        
+        <section>
+            <h2>Paseos</h2>
+            <img src="images/paseo.png" alt="Logo pequeño" class="logo-servicio">
+            <p>Ofrecemos paseos personalizados para tu perro. Reserva un paseo para la semana.</p>
+           
+            <form class="booking-form" id="formPaseos">
+                <label for="paseoFecha">Selecciona un día de la semana:</label>
+                <input type="date" id="paseoFecha" name="paseoFecha" required>
+                <button type="button" onclick="reservarTurno('formPaseos')">Reservar Paseo</button>
+                <p id="successMessagePaseos" class="success-message"></p> 
+            </form>
+        </section>
+
+        
+        <section>
+            <h2>Corte de Pelo</h2>
+            <img src="images/corte.png" alt="Logo pequeño" class="logo-servicio">
+            <p>Reserva un corte de pelo para tu perro con nuestros expertos.</p>
+            
+            <form class="booking-form" id="formCorte">
+                <label for="corteFecha">Selecciona un día de la semana:</label>
+                <input type="date" id="corteFecha" name="corteFecha" required>
+                <button type="button" onclick="reservarTurno('formCorte')">Reservar Corte</button>
+                <p id="successMessageCorte" class="success-message"></p> 
+            </form>
+        </section>
+
+        
+        <section>
+            <h2>Baños</h2>
+            <img src="images/baño.png" alt="Logo pequeño" class="logo-servicio">
+            <p>Reserva un baño para que tu perro se sienta limpio y fresco.</p>
+           
+            <form class="booking-form" id="formBaños">
+                <label for="bañoFecha">Selecciona un día de la semana:</label>
+                <input type="date" id="bañoFecha" name="bañoFecha" required>
+                <button type="button" onclick="reservarTurno('formBaños')">Reservar Baño</button>
+                <p id="successMessageBano" class="success-message"></p> 
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Q GUAU - Estética Canina</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
